@@ -1,3 +1,4 @@
+/* Heading */
 .h1 {
   position: fixed;
   transform: scale(0);
@@ -11,6 +12,8 @@
    margin: 0;
   text-transform: uppercase;
 }
+
+/* Basic Style */
 .body {
   background-color: #f8f8f8;
   color: #333;
@@ -29,15 +32,19 @@
   font-family: fantasy, cursive;
 }
 @media (max-width: 768px) {
+
   .header { 
     text-align: center;
   }
+
 }
 .main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
+
+/* Task list */
 .task-list {
   margin: 0;
   padding: 0px;
@@ -87,11 +94,13 @@
 }
 .task-list__input-checkbox {
   margin: 0 10px;
-  outline: none 
+  outline: none; 
 }
 .task-list__input-checkbox:checked {
   background-color: blue;
 }
+
+/* Buttons */
 .button {
   background: none;
   border: 0px;
